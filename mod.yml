@@ -1,0 +1,11 @@
+title: KH2 - Magic Quotes
+description: Sora will always vocalize the magic he's using, instead of reserving it for only the finisher of said magic.
+assets:
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: magc #Change Magic Quotes
+    type: list
+    method: copy
+    source:
+      - name: magc.list
